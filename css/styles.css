@@ -1,0 +1,133 @@
+body {
+  font-family: 'Roboto' sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+}
+/* #region-HEADER */
+
+.header {
+  width: 1440px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+  height: 80px;
+  display: flex;
+  padding: 24px 156px 24px 156px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-span {
+  color: #2e2f42;
+}
+.logo-span-footer {
+  color: #f4f4fd;
+}
+.menu {
+  flex-direction: row;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.contacts {
+  color: #2e2f42;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* #endregion-HEADER */
+
+/* #region-MAIN */
+.our-team {
+  background-color: #f4f4fd;
+}
+/* #endregion-MAIN */
+
+/* #region-FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-title {
+  width: 264px;
+  height: 72px;
+  top: 3128px;
+  left: 156px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #f4f4fd;
+}
+/* #endregion-FOOTER */
