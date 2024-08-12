@@ -30,15 +30,7 @@ button {
   color: #2e2f42;
   line-height: 1.17;
 }
-.logo-span-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  line-height: 1.17;
-  color: #f4f4fd;
-}
+
 .menu {
   font-weight: 500;
   font-size: 16px;
@@ -152,17 +144,25 @@ button {
 .footer {
   background-color: #2e2f42;
 }
-.logo-footer{  
+.logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #4d5ae5;
-
-
+  color: #4d5ae5;
 }
+.logo-span-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  color: #f4f4fd;
+}
+
 .footer-title {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
